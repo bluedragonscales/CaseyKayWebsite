@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(126, 6, 26);
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    color: white;
+    font-family: "Stoke", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+a, a > img {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+h1 {
+    font-family: "Stoke", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    padding: 3% 10% 3% 1%;
+    background: none;
+}
+
+nav {
+    padding: 1rem;
+    margin-left: 3rem;
+    background: none;
+    width: 20%;
+}
+
+ul {
+    font-size: 1.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 3rem;
+    padding: 6%;
+    transition: 0.4s ease;
+}
+
+nav a:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 15px 10px #000;
+}
+
+h3 {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 0 20px 15px #000;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #000;
+}
+
+.book-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.book img {
+    height: 26rem;
+    margin: 2rem;
+}
+
+.news {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.news article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+article h5 {
+    /* padding-top: 2rem; */
+    font-size: 1.5rem;
+}
+
+article p {
+    padding: 0 2rem;
+    margin: 0 3rem;
+    text-align: center;
+    box-shadow: 0 0 20px 15px #000;
+    background-color: #000;
+}
+
+footer {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 1rem 20%;
+}
