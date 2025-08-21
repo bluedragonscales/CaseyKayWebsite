@@ -22,11 +22,12 @@ header {
     text-align: center;
 }
 
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
     header {
         flex-direction: column;
+        margin-bottom: 10%;
     }
-} */
+}
 
 h1 {
     font-family: "Stoke", serif;
@@ -42,8 +43,8 @@ nav {
     margin-left: 15%;
 }
 
-@media only screen and (max-width: 950) {
-    nav {margin-left: 7%;}
+@media only screen and (max-width: 950px) {
+    nav {margin-left: 1%;}
 }
 
 ul {
@@ -67,9 +68,6 @@ ul {
     box-shadow: 0 0 15px 10px #000;
 }
 
-
-
-
 h3 {
     font-size: 1.3rem;
     letter-spacing: 2px;
@@ -91,6 +89,19 @@ h3 {
 .book img {
     height: 26rem;
     margin: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .book img {
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .book img {
+        width: 98%;
+        height: auto;
+    }
 }
 
 .news {
