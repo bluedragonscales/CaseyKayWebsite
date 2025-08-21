@@ -17,35 +17,37 @@ a, a > img {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     header {
         flex-direction: column;
     }
-}
+} */
 
 h1 {
     font-family: "Stoke", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 5rem;
-    padding: 3% 10% 3% 1%;
+    font-size: 500%;
+    padding: 2% 5%;
+    margin-right: 5%;
     background: none;
 }
 
 nav {
-    padding: 1rem;
-    margin-left: 3rem;
-    background: none;
-    width: 20%;
+    margin-left: 15%;
+}
+
+@media only screen and (max-width: 950) {
+    nav {margin-left: 7%;}
 }
 
 ul {
-    font-size: 1.5rem;
+    font-size: 170%;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -53,17 +55,20 @@ ul {
     align-items: center;
 }
 
-nav a {
+.nav-links {
     text-decoration: none;
-    margin: 3rem;
-    padding: 6%;
+    margin: 0 10%;
+    padding: 2% 5%;
     transition: 0.4s ease;
 }
 
-nav a:hover {
+.nav-links:hover {
     background-color: rgb(0, 0, 0);
     box-shadow: 0 0 15px 10px #000;
 }
+
+
+
 
 h3 {
     font-size: 1.3rem;
