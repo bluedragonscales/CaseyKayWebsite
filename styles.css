@@ -119,8 +119,20 @@ h3 {
 }
 
 article h5 {
-    /* padding-top: 2rem; */
     font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .news article {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 2rem;
+    }
+
+    article h5 {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
 }
 
 article p {
