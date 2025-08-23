@@ -86,21 +86,23 @@ h3 {
     align-items: center;
 }
 
-.book img {
+.book-flex article {
     height: 26rem;
+}
+
+.book img {
+    height: 95%;
     margin: 2rem;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 680px) {
+    .book-flex article {
+        width: 95%;
+        text-align: center;
+    }
+
     .book img {
         margin: 1rem;
-    }
-}
-
-@media only screen and (max-width: 630px) {
-    .book img {
-        width: 98%;
-        height: auto;
     }
 }
 
@@ -146,5 +148,16 @@ article p {
 footer {
     text-align: center;
     margin: 4rem 0;
-    padding: 1rem 20%;
+    /* padding: 1rem 20%; */
+}
+
+footer li {
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+    footer {
+        margin: 1rem;
+        padding: 0;
+    }
 }
