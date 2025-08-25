@@ -14,6 +14,8 @@ a, a > img {
     cursor: pointer;
 }
 
+
+/* NAV STYLING */
 header {
     display: flex;
     flex-direction: row;
@@ -68,6 +70,8 @@ ul {
     box-shadow: 0 0 15px 10px #000;
 }
 
+/* INDEX STYLING */
+
 h3 {
     font-size: 1.3rem;
     letter-spacing: 2px;
@@ -106,6 +110,8 @@ h3 {
     }
 }
 
+
+/* NEWS STYLING */
 .news {
     display: flex;
     flex-flow: column nowrap;
@@ -145,6 +151,7 @@ article p {
     background-color: #000;
 }
 
+/* SPECIFIC BOOK PAGE STYLING */
 .specific-book {
     display: flex;
     flex-flow: column nowrap;
@@ -191,8 +198,31 @@ article p {
     margin-top: 1rem;
 }
 
+@media only screen and (max-width: 900px) {
+    .book-details {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .book-details img {
+        margin-bottom: 6%;
+    }
+
+    .book-description a {
+        margin: 2% 0;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .book-details img {
+        width: 85%;
+    }
+}
+
 .book-excerpt {
-    margin-top: 2rem;
+    margin-top: 6%;
     text-align: justify;
 }
 
