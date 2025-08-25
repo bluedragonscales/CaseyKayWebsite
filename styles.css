@@ -145,6 +145,57 @@ article p {
     background-color: #000;
 }
 
+.specific-book {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+}
+
+.book-details {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.book-details img {
+    padding-right: 1%;
+}
+
+.book-description {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-left: 1%;
+}
+
+.book-description a {
+    margin: 4% 0;
+}
+
+.book-description p {
+    margin: 0;
+    padding: 0;
+    margin-top: 1.2rem;
+    font-size: 0.9rem;
+    background: none;
+    box-shadow: none;
+    line-height: 1.3rem;
+    text-align: justify;
+}
+
+.book-description h3 {
+    margin-top: 1rem;
+}
+
+.book-excerpt {
+    margin-top: 2rem;
+    text-align: justify;
+}
+
 footer {
     text-align: center;
     margin: 4rem 0;
