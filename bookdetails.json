@@ -1,0 +1,32 @@
+[
+    {
+        "bookCover": "images/coming-soon-cover.jpg",
+        "title": "Book One - Fight for Love",
+        "buyLink": "www.amazon.com",
+        "buyLinkMessage": "Pre-order coming soon",
+        "bookBlurb": [
+            "Mason 'Jar' Kepps, Master Chief and Navy SEAL team leader, puts the lives of his teammates above all else in the field. So when an accident in the heat of a firefight severely wounds his second in command, Mason gets the SEAL responsible dishonorably discharged.",
+            "When the team is sent home for evaluation and recuperation, they find themselves in the crosshairs of a dangerous enemy out for revenge. They band together to catch their former teammate, but it seems as if Carl Striker is one step ahead thanks to a frustratingly attractive private investigator sent to spy on them.",
+            "Rhea Kruthers has worked her ass off to earn her own PI office. She prides herself on her professionalism, her discretion, and her skill. Until the next job knocks her for a loop.",
+            "Her brother hires her to do a typical investigation on Mason Kepps, interested in approaching the accomplished SEAL for a job at his security firm, Guardian Security. Unaware Mason's team is embroiled in a dangerous struggle she does her job, determined to remain objective despite the development of unexpected feelings.",
+            "Carl Striker's revenge heats up quickly. The Navy had been the only thing that mattered to him and now he wants to take away everything that matters to Mason Kepps. As soon as he finds out his former team leader and Rhea Kruthers have a connection his focus turns on Rhea."
+        ],
+        "bookExcerpt": ["Coming Soon!"]
+    },
+    {
+        "bookCover": "images/coming-soon-cover.jpg",
+        "title": "Book Two - Fight for a Future",
+        "buyLink": "www.amazon.com",
+        "buyLinkMessage": "Pre-order coming soon",
+        "bookBlurb": ["Coming soon!"],
+        "bookExcerpt": ["Coming Soon!"]
+    },
+    {
+        "bookCover": "images/coming-soon-cover.jpg",
+        "title": "Book Three - Fight for Trust",
+        "buyLink": "www.amazon.com",
+        "buyLinkMessage": "Pre-order coming soon",
+        "bookBlurb": ["Coming soon!"],
+        "bookExcerpt": ["Coming Soon!"]
+    }
+]

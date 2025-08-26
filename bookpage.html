@@ -38,7 +38,7 @@
 
             <!-- Description of the book and links to where to buy it. -->
             <article class="book-description">
-                <h3>Book One: Fight for Love</h3>
+                <h3>None</h3>
 
                 <a href="">Preorder Coming Soon</a>
                 
@@ -68,5 +68,15 @@
         </ul>
     </footer>
     
+    <script>
+        const bookTitle = document.querySelector('h3');
+
+        fetch('./bookdetails.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data[sessionStorage.getItem('bookNum')]);
+                bookTitle.innerText = `${data[sessionStorage.getItem('bookNum')].title}`;
+            });
+    </script>
 </body>
 </html>

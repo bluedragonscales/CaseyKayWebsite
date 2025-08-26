@@ -37,17 +37,15 @@
         <!-- FIRST SERIES: FIGHT -->
         <!-- LIST OF BOOKS -->
         <article class="book">
-            <a href="bookpage.html">
-                <img src="images/coming-soon-cover.jpg" alt="Book one cover">
-            </a>
+            <img onclick="setSession(0)" src="images/coming-soon-cover.jpg" alt="Book one cover">
         </article>
             
         <article class="book">
-            <img src="images/coming-soon-cover.jpg" alt="Book two cover">
+            <img onclick="setSession(1)" src="images/coming-soon-cover.jpg" alt="Book two cover">
         </article>
             
         <article class="book">
-            <img src="images/coming-soon-cover.jpg" alt="Book three cover">
+            <img onclick="setSession(2)" src="images/coming-soon-cover.jpg" alt="Book three cover">
         </article>
     </main>
 
@@ -58,6 +56,13 @@
             <li><a href="news.html">News</a></li>
         </ul>
     </footer>
+
+    <script>
+        function setSession(bookID) {
+            sessionStorage.setItem('bookNum', bookID);
+            window.location.href = './bookpage.html';
+        };
+    </script>
     
 </body>
 </html>
