@@ -21,6 +21,7 @@ const bookExcerpt = document.getElementById('bookExcerpt');
 fetch('./bookdetails.json')
     .then(res => res.json())
     .then(data => {
+        document.title = `Casey Kay Romances - ${data[bookNum].title}`
         // Rendering the book cover image, title, and order link.
         bookImg.src = data[bookNum].bookCover;
         bookTitle.innerText = `${data[bookNum].title}`;
